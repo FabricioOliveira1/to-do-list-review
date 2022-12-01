@@ -1,0 +1,72 @@
+.emptyTask, .filledTask {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width:inherit;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.createdTasks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.concluedTasks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.createdTasks span, .concluedTasks span {
+  border-radius: 999px;
+  background: var(--gray-400);
+  padding: 2px 8px;
+}
+
+.emptyTaskMessage {
+  width: inherit;
+  margin-top: 1.5rem;
+  padding: 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-top: solid 2px var(--gray-400);
+  border-radius: 8px;
+
+  color: var(--gray-300);
+}
+
+.emptyTaskMessage p:nth-child(2) {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.filledTaskMessage {
+  margin-top: 1.5rem;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
