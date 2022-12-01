@@ -2,7 +2,9 @@
 
 # Sobre o projeto
 
-ToDo List é uma aplicação desenvolvvida no Bootcamp da Plataforma Rocketseat, onde proposto como desafio, foi codado do zero com React.js. Foi utilizado modelo pronto no figma para base do projeto
+ToDo List é uma aplicação desenvolvvida no Bootcamp da Plataforma Rocketseat, onde proposto como desafio, foi codado do zero com React.js. Foi utilizado modelo pronto no figma para base do projeto.
+Consiste em uma lista de tarefas, com as funcionalidades de criar nova tarefa, listar e excluir, e com um contador de tarefas concluidas, e contador de tarefas cadastradas.
+Principal finalidade do projeto foi praticar os conceitos básicos do React, trabalhando comunicação entre componentes, estados, e propriedades.
 
 ## Layout mobile
 ![Mobile 1](https://github.com/FabricioOliveira1/readMe--model/blob/main/assets/To-do%20Mobile.png)
